@@ -1,0 +1,259 @@
+*{
+margin: 0px;
+box-sizing: border-box;
+}
+.firstsection{
+    background-image: url(/imgs/bg-1.png);
+    width: 100%;
+    height: 640px;
+    background-size: cover;
+}
+.HeaderContainer{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    padding-top: 40px;
+    
+}
+.navbarlogo img{
+width: 96px;
+}
+.navlist a{
+margin-left: 46px;   
+text-decoration: none;
+color: white; 
+font-family: 'Mochiy Pop P One', sans-serif;
+}
+.navlist a:hover {
+    border-bottom: 1px solid white;
+}
+.HeadBtn button{
+    margin-bottom: 20px;
+    width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: white;
+  font-family: sans-serif;
+  border: 0;
+  cursor: pointer;
+
+}
+.HeadBtn button:hover{
+    color: blue;
+    box-shadow: 0 5px #999;
+}
+.outlook{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.Heading{
+    padding-top: 170px;
+font-weight:500px;
+font-size: 38px;
+color: white;
+font-family: 'Anton', sans-serif;
+}
+.subtitle p{
+    color: white;
+    font-size: 21px;
+ 
+}
+.fbtns{
+    margin-top: 20px;
+}
+.btn1{
+    width: 260px;
+    height: 43px;
+    border-radius: 20px;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    border: 0;
+    cursor: pointer;
+}
+
+.btn2{
+    width: 260px;
+    height: 44px;
+    font-size: 18px;
+    border-radius: 20px;
+    background-color:#343a40;
+    color: white;
+    font-family: sans-serif;
+    border: 0;
+    cursor: pointer;
+}
+
+.secondcontainer{
+    display: flex;
+    width: 100%;
+    height: 600px;
+
+}
+.secondinone{
+    margin-top: 105px;
+    display: flex;
+}
+.first-image{
+    width: 50%;
+    height: 260px;
+}
+.first-content{
+    padding-left: 99px;
+    width: 33%;
+    height: 260px;
+}
+.first-content h1{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 44px;
+}
+.first-content p{
+    font-size: 23px;
+}
+/* /////third section //// */
+/* ////////////////////////////////////////////////////////////// */
+
+
+.Thirdcontent{
+    background-color:#F8F8FF;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.thirdtitle h1{
+    padding-left: 550px;
+    font-family: 'Anton', sans-serif;
+
+}
+.subtitle2 p{
+    width: 100%;
+    color: grey;
+    padding-left: 207px;
+}
+.thirdimg{
+    display: flex;
+    justify-content: center;
+}
+/* Fifth section */
+
+.Fifthcontainer{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.fifth-image{
+    padding-left: 400px;
+    width: 50%;
+    height: 500px;
+    
+}
+.Readytext{
+    display: flex;
+    justify-content: center;
+    
+    font-family: monospace;
+}
+.Lastbtn{
+    display: flex;
+    justify-content: center;
+}
+.Lastbtn button{
+    display: flex;
+    justify-content: center;
+    
+ 
+}
+.btn5{
+    width: 260px;
+    margin-top: 19px;
+    height: 35px;
+    font-size: 21px;
+    border-radius: 20px;
+    background-color:#343a40;
+    color: white;
+    font-family: sans-serif;
+    border: 0;
+    cursor: pointer;
+}
+
+.footer{
+    width: 100%;
+    height: 450px;
+    background-color: #23272a;
+    display: flex;
+    flex-direction: row;
+    /* padding-top: 80px; */
+    padding-top: 50px;
+
+    
+}
+.footercontainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0 80px;
+    border-bottom: 1px solid lightblue;
+    margin: 0 50px;
+    
+}
+
+.firstrow{
+    width:30%;
+    height: 300px;
+    margin-top: -99px;
+}
+.firstrow ul{
+    display: flex;          
+}
+.firstrow li{
+    list-style: none;
+    margin-left: 20px;
+    font-size: 19px
+}
+
+.firstrow img{
+    padding-top: 64px;
+    padding-left: 79px;
+}
+.firstsec {
+    transform: translateX(80px);
+}
+
+.secondrow{
+    display: flex;
+    width: 20%;
+    height: 400px;
+    
+    
+}
+.secondrow ul li {
+    list-style: none;
+
+    padding-top: 10px;
+    font-size: 18px;
+
+}
+.secondrow a{
+    text-decoration: none;
+    color: white;
+}
+.secondrow a:hover{
+    border-bottom: 2px solid white;
+}
+.secondtitle{
+    color: blue;
+    font-size: 18px;
+}
+
+
+
